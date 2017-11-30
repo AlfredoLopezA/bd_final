@@ -1,7 +1,18 @@
 Rails.application.routes.draw do
-  resources :homes
-  get 'home/index'
-
-  root 'home#index'
-  # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
+  get 'spbar/SP_BuscarContactosProveedor/nombre/:nombre/', to: 'spbar#SP_BuscarContactosProveedor'
+  get 'spbar/SP_CantidadProveedoresPorComuna/comuna/:comuna/', to: 'spbar#SP_CantidadProveedoresPorComuna'
+  get 'spbar/SP_CantidadProveedorPorGiro/giro/:giro/', to: 'spbar#SP_CantidadProveedorPorGiro'
+  get 'spbar/SP_CompraPromedioAnualPorProveedor/yyyy/:yyyy/', to: 'spbar#SP_CompraPromedioAnualPorProveedor'
+  get 'spbar/SP_CompraPromedioMensualPorProveedor/mes/:mes/yyyy/:yyyy/', to: 'spbar#SP_CompraPromedioMensualPorProveedor'
+  get 'spbar/SP_DocumentosVencidos/yyyy-mm-dd/:fecha/', to: 'spbar#SP_DocumentosVencidos'
+  get 'spbar/SP_DocumentosVencidosPorMes/mes/:mes/yyyy/:yyyy/', to: 'spbar#SP_DocumentosVencidosPorMes'
+  get 'spbar/SP_LibroComprasMensual/mes/:mes/yyyy/:yyyy/', to: 'spbar#SP_LibroComprasMensual'
+  get 'spbar/SP_PrecioPromedioProductosPorMes/mes/:mes/yyyy/:yyyy/', to: 'spbar#SP_PrecioPromedioProductosPorMes'
+  get 'spbar/SP_ProductoMasComprado/inicio/:inicio/final/:final/', to: 'spbar#SP_ProductoMasComprado'
+  get 'spbar/SP_ProductosClasificadosPorCategoria/categoria/:categ', to: 'spbar#SP_ProductosClasificadosPorCategoria'
+  get 'spbar/SP_ProductosCompradosPorMes/mes/:mes/yyyy/:yyyy/', to: 'spbar#SP_ProductosCompradosPorMes'
+  get 'spbar/SP_ProductosCompradosPorProveedor/proveedor/:proveedor', to: 'spbar#SP_ProductosCompradosPorProveedor'
+  get 'spbar/SP_ProveedorMasComprado/inicio/:inicio/final/:final/', to: 'spbar#SP_ProveedorMasComprado'
+  get 'inicio/index'
+  root 'inicio#index'
 end

@@ -1,0 +1,43 @@
+/*======================================================================================*/
+/* Cristian Contreras	rut : 13.211.748-9						*/
+/* Alfredo López	rut : 11.270.872-3						*/
+/*======================================================================================*/
+/*  Script base de datos.								*/
+/*======================================================================================*/
+/* CreaBaseDatosMOE.sql : Crea la base de datos.					*/
+/* CrearTablasMOE.sql	: Crea todas las tabals y relaciones de la base de datos.	*/
+/* PoblarBaseMOE.sql	: Puebla la base de datos.					*/
+/*======================================================================================*/
+/*  Procedemientos CRUD.								*/
+/*======================================================================================*/
+/* SP_CrudUnidad_medida.sql								*/
+/* SP_CrudCategoria_producto.sql							*/
+/* SP CRUD/SP_CrudComuna.sql								*/
+/* SP CRUD/SP_CrudContacto_proveedor.sql						*/
+/* SP CRUD/SP_CrudDocumento_compra.sql							*/
+/* SP CRUD/SP_CrudDocumento_compra_detalle.sql						*/
+/* SP CRUD/SP_CrudForma_pago.sql							*/
+/* SP CRUD/SP_CrudGiro.sql								*/
+/* SP CRUD/SP_CrudProducto.sql								*/
+/* SP CRUD/SP_CrudProveedor.sql								*/
+/* SP CRUD/SP_CrudTipo_documento.sql							*/
+/*======================================================================================*/
+/*  Procedemientos agregan valor.							*/
+/*======================================================================================*/
+/* SP_BuscarContactosProveedor.sql							*/
+/* SP_CantidadProveedoresPorComuna.sql							*/
+/* SP_CantidadProveedorPorGiro.sql							*/
+/* SP_CompraPromedioAnualPorProveedor.sql						*/
+/* SP_CompraPromedioMensualPorProveedor.sql						*/
+/* SP_DocumentosVencidos.sql								*/
+/* SP_DocumentosVencidosPorMes.sql							*/
+/* SP_LibroComprasMensual.sql								*/
+/* SP_PrecioPromedioProductosPorMes.sql							*/
+/* SP_ProductoMasComprado.sql								*/
+/* SP_ProductosClasificadosPorCategoria.sql						*/
+/* SP_ProductosCompradosPorMes.sql							*/
+/* SP_ProductosCompradosPorProveedor.sql						*/
+/* SP_ProveedorMasComprado.sql								*/
+/*======================================================================================*/
+
+
